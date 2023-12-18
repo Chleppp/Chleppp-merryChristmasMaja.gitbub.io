@@ -1,0 +1,83 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #0a0614;
+  transition: 2s;
+  color: #ebe2f7;
+  accent-color: #bba6d9;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.Wtop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 100%;
+}
+.Wbottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #362748;
+  border-radius: 15px;
+  width: 95%;
+  height: 60px;
+  margin: 10px;
+  transition: 2s;
+}
+.christmasPDFdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.christmasPDF {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+}
+.underPDF {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.buton {
+  background-color: #bba6d9;
+  padding: 5px;
+  color: #ebe2f7;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+  width: 120px;
+  height: 80%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.buton:hover {
+  transition: 0.3s;
+  background-color: #987fb9;
+}
+.buton:active {
+  transition: 0.1s;
+  background-color: #bba6d9;
+}
