@@ -1,7 +1,7 @@
 function dodgeDefault() {
     var element = document.getElementById("pdfObject");
     document.body.style.backgroundColor = "#0a0614";
-    element.setAttribute("data", "dchfiolet.pdf");
+    element.setAttribute("src", "https://drive.google.com/file/d/1eZT1nXDy-Qk1FGU8PDOG60aASDDWT3vS/preview?usp=drive_link");
 
     var but1 = document.getElementById("1");
     but1.style.backgroundColor = "#bba6d9";
@@ -22,7 +22,7 @@ function dodgeDefault() {
   function kitty() {
     var element = document.getElementById("pdfObject");
     document.body.style.backgroundColor = "#10121f";
-    element.setAttribute("data", "dc300.pdf");
+    element.setAttribute("src", "https://drive.google.com/file/d/1YzMDsPMXP2JlzT5GUb4_R4Fj85r-R-fT/preview?usp=drive_link");
 
     var but1 = document.getElementById("1");
     but1.style.backgroundColor = "#85a9e2";
