@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
 }
+
 body {
   background-color: #0a0614;
   transition: 2s;
@@ -15,6 +16,7 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
 .whole {
   display: flex;
   flex-direction: column;
@@ -24,6 +26,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .Wtop {
   display: flex;
   justify-content: center;
@@ -31,6 +34,7 @@ body {
   height: 95%;
   width: 100%;
 }
+
 .Wbottom {
   display: flex;
   justify-content: space-around;
@@ -42,19 +46,22 @@ body {
   margin: 10px;
   transition: 2s;
 }
+
 .christmasPDFdiv {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  
+
 }
+
 .underPDF {
   display: none;
   justify-content: center;
   align-items: center;
 }
+
 .buton {
   background-color: #bba6d9;
   padding: 5px;
@@ -67,4 +74,26 @@ body {
   height: 80%;
   cursor: pointer;
   transition: 1s;
+}
+
+a {
+  margin: 0;
+  padding: 0%;
+  bottom: 1000px;
+}
+
+.KCbutton {
+  background-color: black;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 0px 30px;
+  font-family: Cascadia Mono;
+  transition: .4s;
+}
+
+.KCbutton:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+  box-shadow: rgba(255, 255, 255, 1) 0px 0px 50px;
 }
